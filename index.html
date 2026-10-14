@@ -28,7 +28,27 @@
         <img src="Gemini_Generated_Image_5om2z5om2z5om2z5.jpeg" alt="Logotipo do Curso de Maquiagem com ilustração de mulher maquiada e pincel em fundo rosa brilhante.">
         <div class="container-imagem">
   <img src="caminho-da-sua-imagem.png" alt="Curso de Maquiagem" class="imagem-curso">
-</div>
+</div>/* Container que alinha a imagem à direita */
+.container-imagem {
+  display: flex;
+  justify-content: flex-end; /* Envia o conteúdo para a direita */
+  align-items: center;      /* Centraliza no eixo vertical */
+  width: 100%;
+  padding: 20px;            /* Espaçamento das bordas da página */
+}
+
+/* Estilo para diminuir e ajustar a imagem */
+.imagem-curso {
+  width: 350px;             /* Ajuste esse valor para o tamanho desejado (ex: 300px, 400px ou 30%) */
+  height: auto;             /* Mantém a proporção da imagem sem esticar */
+  border-radius: 15px;      /* Opcional: deixa as pontas levemente arredondadas */
+}<img src="caminho-da-sua-imagem.png" alt="Curso de Maquiagem" class="imagem-direita">.imagem-direita {
+  width: 300px;             /* Altere para ajustar o tamanho */
+  height: auto;             /* Preserva a proporção */
+  display: block;
+  margin-left: auto;        /* Empurra a imagem para a extremidade direita */
+  margin-right: 20px;       /* Distância da borda direita da tela */
+}
         <h2>Primeiro post</h2>
         <p>Por: Sara Camparoto</p>
         <p>Bem-vindas (os) a primeira edição do curso profissional de maquiagem! 
